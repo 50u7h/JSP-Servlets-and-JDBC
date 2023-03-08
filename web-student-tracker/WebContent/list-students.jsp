@@ -21,6 +21,10 @@
 
 		<div id="content">
 
+			<input type="button" value="Add Student"
+				onclick="window.location.href='add-student-form.jsp'; return false;"
+				class="add-student-button" />
+
 			<table>
 
 				<tr>
@@ -38,7 +42,7 @@
 						<td>${tempStudent.firstName}</td>
 						<td>${tempStudent.lastName}</td>
 						<td>${tempStudent.email}</td>
-						
+
 					</tr>
 
 				</c:forEach>
